@@ -4,16 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d047c3a-65ea-4a20-a0eb-99ab33cc0b81" name="Changes" comment="2">
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/additional1/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/additional1/BookAvailability.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/additional1/Formatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/additional1/JsonFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/additional1/StringFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/additional1/XmlFormatter.java" afterDir="false" />
+    <list default="true" id="5d047c3a-65ea-4a20-a0eb-99ab33cc0b81" name="Changes" comment="1 additional task">
+      <change afterPath="$PROJECT_DIR$/src/CoffeeShop/Americano.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CoffeeShop/AmericanoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CoffeeShop/AmericanoIngredientFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CoffeeShop/Beans.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CoffeeShop/ChineseBeans.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CoffeeShop/ChocolateSyrup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CoffeeShop/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CoffeeShop/CoffeeBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CoffeeShop/CoffeeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CoffeeShop/CoffeeShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CoffeeShop/CustomCoffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CoffeeShop/IndianBeans.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CoffeeShop/IngredientFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CoffeeShop/Latte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CoffeeShop/LatteFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CoffeeShop/LatteIngredientFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CoffeeShop/Milk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CoffeeShop/SoyMilk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CoffeeShop/Syrup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CoffeeShop/VanillaSyrup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CoffeeShop/WholeMilk.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Project1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,30 +45,31 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2mEqngm0Gfs2sPjNTgxgjAP3yPB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/rostislav/MyFiles/Programing files/Paterns_JAVA/Patrens_AITU/src/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/rostislav/MyFiles/Programing files/Paterns_JAVA/Patrens_AITU&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/rostislav/MyFiles/Programing files/Paterns_JAVA/Patrens_AITU/src/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -72,6 +87,14 @@
       <option name="presentableId" value="Default" />
       <updated>1726652251251</updated>
       <workItem from="1726652252243" duration="5111000" />
+      <workItem from="1727254867858" duration="1986000" />
+      <workItem from="1727257438274" duration="13000" />
+      <workItem from="1727258946430" duration="2889000" />
+      <workItem from="1727535812714" duration="3805000" />
+      <workItem from="1727549164375" duration="58000" />
+      <workItem from="1727609138443" duration="1294000" />
+      <workItem from="1727691265625" duration="39000" />
+      <workItem from="1727760627446" duration="1627000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <option name="closed" value="true" />
@@ -89,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726652745405</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1 additional task">
+      <option name="closed" value="true" />
+      <created>1727254901042</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727254901042</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,6 +129,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first" />
     <MESSAGE value="2" />
-    <option name="LAST_COMMIT_MESSAGE" value="2" />
+    <MESSAGE value="1 additional task" />
+    <option name="LAST_COMMIT_MESSAGE" value="1 additional task" />
   </component>
 </project>
