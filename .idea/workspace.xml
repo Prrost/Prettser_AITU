@@ -4,31 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d047c3a-65ea-4a20-a0eb-99ab33cc0b81" name="Changes" comment="1 additional task">
-      <change afterPath="$PROJECT_DIR$/src/CoffeeShop/Americano.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CoffeeShop/AmericanoFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CoffeeShop/AmericanoIngredientFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CoffeeShop/Beans.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CoffeeShop/ChineseBeans.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CoffeeShop/ChocolateSyrup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CoffeeShop/Coffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CoffeeShop/CoffeeBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CoffeeShop/CoffeeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CoffeeShop/CoffeeShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CoffeeShop/CustomCoffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CoffeeShop/IndianBeans.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CoffeeShop/IngredientFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CoffeeShop/Latte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CoffeeShop/LatteFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CoffeeShop/LatteIngredientFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CoffeeShop/Milk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CoffeeShop/SoyMilk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CoffeeShop/Syrup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CoffeeShop/VanillaSyrup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CoffeeShop/WholeMilk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="5d047c3a-65ea-4a20-a0eb-99ab33cc0b81" name="Changes" comment="first assignment" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +70,7 @@
       <workItem from="1727549164375" duration="58000" />
       <workItem from="1727609138443" duration="1294000" />
       <workItem from="1727691265625" duration="39000" />
-      <workItem from="1727760627446" duration="1627000" />
+      <workItem from="1727760627446" duration="2019000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <option name="closed" value="true" />
@@ -120,7 +96,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727254901042</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="first assignment">
+      <option name="closed" value="true" />
+      <created>1727762471886</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727762471887</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +114,7 @@
     <MESSAGE value="first" />
     <MESSAGE value="2" />
     <MESSAGE value="1 additional task" />
-    <option name="LAST_COMMIT_MESSAGE" value="1 additional task" />
+    <MESSAGE value="first assignment" />
+    <option name="LAST_COMMIT_MESSAGE" value="first assignment" />
   </component>
 </project>
