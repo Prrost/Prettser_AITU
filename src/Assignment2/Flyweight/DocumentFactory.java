@@ -1,6 +1,7 @@
 package Assignment2.Flyweight;
 
 import Assignment2.Document;
+import Assignment2.Proxy.ProxyDocument;
 import Assignment2.RealDocument;
 
 import java.util.HashMap;
@@ -16,7 +17,7 @@ public class DocumentFactory {
         if (documentMap.containsKey(docName)) {
             return documentMap.get(docName);
         } else {
-            Document document = new RealDocument(docName);
+            Document document = new ProxyDocument(docName);
             documentMap.put(docName, document);
         }
         return documentMap.get(docName);
