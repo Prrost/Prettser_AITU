@@ -4,7 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d047c3a-65ea-4a20-a0eb-99ab33cc0b81" name="Changes" comment="Assignment 2" />
+    <list default="true" id="5d047c3a-65ea-4a20-a0eb-99ab33cc0b81" name="Changes" comment="Assignment 2">
+      <change afterPath="$PROJECT_DIR$/src/assignment3/chain/PaymentA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assignment3/chain/PaymentB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assignment3/chain/PaymentC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assignment3/chain/PaymentHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assignment3/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assignment3/command/NextChannelCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assignment3/command/PreviousChannelCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assignment3/command/RemoteControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assignment3/command/Television.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assignment3/command/TurnOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assignment3/command/TurnOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assignment3/command/VolumeDownCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assignment3/command/VolumeUpCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assignment3/iterator/ArrayMovieCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assignment3/iterator/ArrayMovieIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assignment3/iterator/ListMovieCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assignment3/iterator/ListMovieIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assignment3/iterator/MyIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assignment3/mediator/HomeMediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assignment3/mediator/HomeMediatorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assignment3/mediator/HumiditySensor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assignment3/mediator/LightSensor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assignment3/mediator/Sensor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assignment3/mediator/TemperatureSensor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assignment3/memento/Caretaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assignment3/memento/TextEditor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assignment3/memento/TextMemento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +51,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Prrost&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Prrost/Prettser_AITU.git&quot;,
+    &quot;accountId&quot;: &quot;e3c66987-ed46-4f04-84b5-c476edb59acd&quot;
+  }
+}</component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="true" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -30,22 +78,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/rostislav/MyFiles/Programing files/Paterns_JAVA/Patrens_AITU&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/rostislav/MyFiles/Programing files/Paterns_JAVA/Patrens_AITU/src/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "git-widget-placeholder": "master",
+    "go.import.settings.migrated": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/rostislav/MyFiles/ProgramingFiles/Paterns_JAVA/Patrens_AITU",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/rostislav/MyFiles/Programing files/Paterns_JAVA/Patrens_AITU/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
@@ -54,8 +106,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.19072.14" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.19072.14" />
       </set>
     </attachedChunks>
   </component>
@@ -86,6 +138,11 @@
       <workItem from="1728046331254" duration="428000" />
       <workItem from="1728046813127" duration="2152000" />
       <workItem from="1728050083725" duration="821000" />
+      <workItem from="1728212218250" duration="581000" />
+      <workItem from="1728221731828" duration="407000" />
+      <workItem from="1728875610984" duration="2473000" />
+      <workItem from="1728888681392" duration="1571000" />
+      <workItem from="1728913719536" duration="4317000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <option name="closed" value="true" />
@@ -135,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728050661460</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Assignment 2">
+      <option name="closed" value="true" />
+      <created>1728212472770</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1728212472770</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,5 +225,9 @@
     <MESSAGE value="Name fix" />
     <MESSAGE value="Assignment 2" />
     <option name="LAST_COMMIT_MESSAGE" value="Assignment 2" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>false</integration-enabled>
+    <settings-migrated>true</settings-migrated>
   </component>
 </project>
