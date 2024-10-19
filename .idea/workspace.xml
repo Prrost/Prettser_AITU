@@ -4,34 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d047c3a-65ea-4a20-a0eb-99ab33cc0b81" name="Changes" comment="Assignment 2">
-      <change afterPath="$PROJECT_DIR$/src/assignment3/chain/PaymentA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment3/chain/PaymentB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment3/chain/PaymentC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment3/chain/PaymentHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment3/command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment3/command/NextChannelCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment3/command/PreviousChannelCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment3/command/RemoteControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment3/command/Television.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment3/command/TurnOffCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment3/command/TurnOnCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment3/command/VolumeDownCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment3/command/VolumeUpCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment3/iterator/ArrayMovieCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment3/iterator/ArrayMovieIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment3/iterator/ListMovieCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment3/iterator/ListMovieIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment3/iterator/MyIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment3/mediator/HomeMediator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment3/mediator/HomeMediatorImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment3/mediator/HumiditySensor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment3/mediator/LightSensor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment3/mediator/Sensor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment3/mediator/TemperatureSensor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment3/memento/Caretaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment3/memento/TextEditor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment3/memento/TextMemento.java" afterDir="false" />
+    <list default="true" id="5d047c3a-65ea-4a20-a0eb-99ab33cc0b81" name="Changes" comment="Assignment 3">
+      <change afterPath="$PROJECT_DIR$/src/Assignment4/Observer/NewsPublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment4/Observer/NewsPublisherImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment4/Observer/NewsSubscriberLaptop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment4/Observer/NewsSubscriberSmartphone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment4/Observer/NewsSubscriberTablet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment4/Observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment4/State/PausedState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment4/State/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment4/State/PlayerState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment4/State/PlayingState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment4/State/StoppedState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment4/Strategy/CardPaymentStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment4/Strategy/CashOnDeliveryStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment4/Strategy/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment4/Strategy/PaymentStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment4/Strategy/WalletPaymentStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment4/TemplateMethod/ElectronicsQualityCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment4/TemplateMethod/FoodQualityCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment4/TemplateMethod/QualityCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment4/Visitor/AntivirusVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment4/Visitor/ExecutableFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment4/Visitor/File.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment4/Visitor/ReportVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment4/Visitor/TextFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment4/Visitor/Visitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -43,6 +41,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Script" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -78,26 +77,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "git-widget-placeholder": "master",
-    "go.import.settings.migrated": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/rostislav/MyFiles/ProgramingFiles/Paterns_JAVA/Patrens_AITU",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/rostislav/MyFiles/Programing files/Paterns_JAVA/Patrens_AITU/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/rostislav/MyFiles/ProgramingFiles/Paterns_JAVA/Patrens_AITU&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/rostislav/MyFiles/Programing files/Paterns_JAVA/Patrens_AITU/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
@@ -142,7 +141,15 @@
       <workItem from="1728221731828" duration="407000" />
       <workItem from="1728875610984" duration="2473000" />
       <workItem from="1728888681392" duration="1571000" />
-      <workItem from="1728913719536" duration="4317000" />
+      <workItem from="1728913719536" duration="4527000" />
+      <workItem from="1729066044453" duration="7000" />
+      <workItem from="1729066059215" duration="10000" />
+      <workItem from="1729066075042" duration="11000" />
+      <workItem from="1729069832462" duration="2916000" />
+      <workItem from="1729261831746" duration="505000" />
+      <workItem from="1729262353097" duration="3869000" />
+      <workItem from="1729266974226" duration="365000" />
+      <workItem from="1729323969035" duration="2615000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <option name="closed" value="true" />
@@ -200,7 +207,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728212472770</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Assignment 3">
+      <option name="closed" value="true" />
+      <created>1728918094737</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1728918094737</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,7 +239,8 @@
     <MESSAGE value="first assignment" />
     <MESSAGE value="Name fix" />
     <MESSAGE value="Assignment 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assignment 2" />
+    <MESSAGE value="Assignment 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assignment 3" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>

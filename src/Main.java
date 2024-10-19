@@ -1,22 +1,13 @@
-import Assignment2.Adapter.PDFDocumentAdapter;
-import Assignment2.Bridge.HighlightRenderEngine;
-import Assignment2.Bridge.RenderEngine;
-import Assignment2.Bridge.SimpleRenderEngine;
-import Assignment2.Composite.DocumentGroup;
-import Assignment2.Facade.DocumentFacade;
-import additional1.*;
-import CoffeeShop.*;
-import Assignment2.*;
-import Assignment2.Flyweight.DocumentFactory;
-import assignment3.chain.PaymentA;
-import assignment3.chain.PaymentB;
-import assignment3.chain.PaymentC;
-import assignment3.chain.PaymentHandler;
-import assignment3.command.*;
-import assignment3.iterator.*;
-import assignment3.mediator.*;
-import assignment3.memento.Caretaker;
-import assignment3.memento.TextEditor;
+import Assignment4.Observer.*;
+import Assignment4.State.Player;
+import Assignment4.Strategy.CardPaymentStrategy;
+import Assignment4.Strategy.CashOnDeliveryStrategy;
+import Assignment4.Strategy.Order;
+import Assignment4.Strategy.WalletPaymentStrategy;
+import Assignment4.TemplateMethod.ElectronicsQualityCheck;
+import Assignment4.TemplateMethod.FoodQualityCheck;
+import Assignment4.TemplateMethod.QualityCheck;
+import Assignment4.Visitor.*;
 
 
 public class Main {
@@ -148,119 +139,189 @@ public class Main {
 
 
 
-        //Assignment 3
+//        //Assignment 3
+//
+//        //1 Chain
+//        //Creating handlers
+//        PaymentHandler paymentA = new PaymentA(100);
+//        PaymentHandler paymentB = new PaymentB(300);
+//        PaymentHandler paymentC = new PaymentC(1000);
+//
+//        //Creating chain
+//        paymentA.setNext(paymentB).setNext(paymentC);
+//
+//        //Starting the chain
+//        paymentA.handle(210);
+//
+//
+//        System.out.println("\n\n\n");
+//        //2 Command
+//
+//        //creating objects
+//        Television television = new Television();
+//        RemoteControl remoteControl = new RemoteControl();
+//
+//        //adding commands
+//        remoteControl.setCommand("turn on",  new TurnOnCommand(television));
+//        remoteControl.setCommand("turn off",  new TurnOffCommand(television));
+//        remoteControl.setCommand("volume up",  new VolumeUpCommand(television));
+//        remoteControl.setCommand("volume down",  new VolumeDownCommand(television));
+//        remoteControl.setCommand("next channel",  new NextChannelCommand(television));
+//        remoteControl.setCommand("previous channel",  new PreviousChannelCommand(television));
+//
+//        //execute commands
+//        remoteControl.buttonPressed("turn on");
+//        remoteControl.buttonPressed("volume up");
+//        remoteControl.buttonPressed("volume down");
+//        remoteControl.buttonPressed("next channel");
+//        remoteControl.buttonPressed("previous channel");
+//        remoteControl.buttonPressed("turn off");
+//
+//
+//
+//
+//        //3 Iterator
+//        System.out.println("\n");
+//
+//        //Array
+//        ArrayMovieCollection<String> movieCollection = new ArrayMovieCollection<>();
+//        movieCollection.addMovie("movie 1");
+//        movieCollection.addMovie("movie 2");
+//        movieCollection.addMovie("movie 3");
+//        movieCollection.addMovie("movie 4");
+//
+//        MyIterator<String> movieIterator = new ArrayMovieIterator<>(movieCollection);
+//
+//        while (movieIterator.hasNext()) {
+//            String item = movieIterator.next();
+//            System.out.println(item);
+//        }
+//        System.out.println();
+//
+//        //LinkedList
+//        ListMovieCollection<String> movieCollection2 = new ListMovieCollection<>();
+//        movieCollection2.addMovie("movie 1 list");
+//        movieCollection2.addMovie("movie 2 list");
+//        movieCollection2.addMovie("movie 3 list");
+//        movieCollection2.addMovie("movie 4 list");
+//
+//        MyIterator<String> movieIterator2 = new ListMovieIterator<>(movieCollection2);
+//
+//        while (movieIterator2.hasNext()) {
+//            String item = movieIterator2.next();
+//            System.out.println(item);
+//        }
+//
+//
+//
+//        //4 Mediator
+//        System.out.println();
+//
+//
+//        HomeMediator homeMediator = new HomeMediatorImpl();
+//
+//        homeMediator.addSensor(new LightSensor(70));
+//        homeMediator.addSensor(new HumiditySensor(67));
+//        homeMediator.addSensor(new TemperatureSensor(25));
+//
+//        homeMediator.printReport();
+//
+//
+//
+//        //5 Memento
+//
+//        System.out.println();
+//
+//        TextEditor textEditor = new TextEditor("first text.");
+//
+//        Caretaker caretaker = new Caretaker();
+//
+//        caretaker.addSavedState(textEditor.saveState());
+//
+//        textEditor.addText(" Second text.");
+//
+//        caretaker.addSavedState(textEditor.saveState());
+//
+//        textEditor.addText(" Third text.");
+//
+//        textEditor.printText();
+//
+//        textEditor.restoreState(caretaker.getSavedState(0));
+//
+//        textEditor.printText();
+//
+//        textEditor.restoreState(caretaker.getSavedState(1));
+//
+//        textEditor.printText();
 
-        //1 Chain
-        //Creating handlers
-        PaymentHandler paymentA = new PaymentA(100);
-        PaymentHandler paymentB = new PaymentB(300);
-        PaymentHandler paymentC = new PaymentC(1000);
 
-        //Creating chain
-        paymentA.setNext(paymentB).setNext(paymentC);
+        //Assignment 4
 
-        //Starting the chain
-        paymentA.handle(210);
+        //1 Observer
 
+        NewsPublisher newsPublisher = new NewsPublisherImpl();
 
-        System.out.println("\n\n\n");
-        //2 Command
-
-        //creating objects
-        Television television = new Television();
-        RemoteControl remoteControl = new RemoteControl();
-
-        //adding commands
-        remoteControl.setCommand("turn on",  new TurnOnCommand(television));
-        remoteControl.setCommand("turn off",  new TurnOffCommand(television));
-        remoteControl.setCommand("volume up",  new VolumeUpCommand(television));
-        remoteControl.setCommand("volume down",  new VolumeDownCommand(television));
-        remoteControl.setCommand("next channel",  new NextChannelCommand(television));
-        remoteControl.setCommand("previous channel",  new PreviousChannelCommand(television));
-
-        //execute commands
-        remoteControl.buttonPressed("turn on");
-        remoteControl.buttonPressed("volume up");
-        remoteControl.buttonPressed("volume down");
-        remoteControl.buttonPressed("next channel");
-        remoteControl.buttonPressed("previous channel");
-        remoteControl.buttonPressed("turn off");
+        newsPublisher.addObserver(new NewsSubscriberLaptop());
+        newsPublisher.addObserver(new NewsSubscriberSmartphone());
+        newsPublisher.addObserver(new NewsSubscriberTablet());
 
 
+        newsPublisher.notifyObservers("Sport", "Austin formula 1 race is at this sunday!");
+        newsPublisher.notifyObservers("Science", "Elon Musk's rocket landed!");
+
+        System.out.println("\n\n");
+        //2 State
+
+        Player player = new Player();
+        player.play();
+        player.play();
+        player.stop();
+        player.pause();
+        player.play();
+        player.pause();
+        player.play();
 
 
-        //3 Iterator
-        System.out.println("\n");
+        //3 Strategy
+        System.out.println("\n\n");
 
-        //Array
-        ArrayMovieCollection<String> movieCollection = new ArrayMovieCollection<>();
-        movieCollection.addMovie("movie 1");
-        movieCollection.addMovie("movie 2");
-        movieCollection.addMovie("movie 3");
-        movieCollection.addMovie("movie 4");
-
-        MyIterator<String> movieIterator = new ArrayMovieIterator<>(movieCollection);
-
-        while (movieIterator.hasNext()) {
-            String item = movieIterator.next();
-            System.out.println(item);
-        }
-        System.out.println();
-
-        //LinkedList
-        ListMovieCollection<String> movieCollection2 = new ListMovieCollection<>();
-        movieCollection2.addMovie("movie 1 list");
-        movieCollection2.addMovie("movie 2 list");
-        movieCollection2.addMovie("movie 3 list");
-        movieCollection2.addMovie("movie 4 list");
-
-        MyIterator<String> movieIterator2 = new ListMovieIterator<>(movieCollection2);
-
-        while (movieIterator2.hasNext()) {
-            String item = movieIterator2.next();
-            System.out.println(item);
-        }
+        Order order1 = new Order(new CardPaymentStrategy(), 1000);
+        Order order2 = new Order(new WalletPaymentStrategy(), 1000);
+        Order order3 = new Order(new CashOnDeliveryStrategy(), 1000);
 
 
-
-        //4 Mediator
-        System.out.println();
-
-
-        HomeMediator homeMediator = new HomeMediatorImpl();
-
-        homeMediator.addSensor(new LightSensor(70));
-        homeMediator.addSensor(new HumiditySensor(67));
-        homeMediator.addSensor(new TemperatureSensor(25));
-
-        homeMediator.printReport();
+        System.out.println("Price with card: " + order1.calculateFinalPrice());
+        System.out.println("Price with wallet: " + order2.calculateFinalPrice());
+        System.out.println("Price with delivery: " + order3.calculateFinalPrice());
 
 
+        //4 Template Method
 
-        //5 Memento
+        QualityCheck foodCheck = new FoodQualityCheck();
+        System.out.println("\n\nFood quality check:");
+        foodCheck.checkProduct();
 
-        System.out.println();
+        QualityCheck electronicsCheck = new ElectronicsQualityCheck();
+        System.out.println("\nElectronics quality check:");
+        electronicsCheck.checkProduct();
 
-        TextEditor textEditor = new TextEditor("first text.");
 
-        Caretaker caretaker = new Caretaker();
+        //5 Visitor
+        System.out.println("\n\n");
+        TextFile textFile = new TextFile("This is a clean text file.");
+        ExecutableFile executableFile = new ExecutableFile("This is clean code.");
 
-        caretaker.addSavedState(textEditor.saveState());
+        Visitor antivirusVisitor = new AntivirusVisitor();
+        Visitor reportVisitor = new ReportVisitor();
 
-        textEditor.addText(" Second text.");
 
-        caretaker.addSavedState(textEditor.saveState());
+        System.out.println("Antivirus scan:");
+        textFile.accept(antivirusVisitor);
+        executableFile.accept(antivirusVisitor);
 
-        textEditor.addText(" Third text.");
 
-        textEditor.printText();
-
-        textEditor.restoreState(caretaker.getSavedState(0));
-
-        textEditor.printText();
-
-        textEditor.restoreState(caretaker.getSavedState(1));
-
-        textEditor.printText();
+        System.out.println("\nGenerating reports:");
+        textFile.accept(reportVisitor);
+        executableFile.accept(reportVisitor);
     }
 }
